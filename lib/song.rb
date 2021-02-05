@@ -18,6 +18,6 @@ class Song
   end
   
   def self.new_by_name(song)
-    song = song.new(song)
+    song = song.create(song)
   end
 end
